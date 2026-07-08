@@ -929,13 +929,29 @@
                 <p style="max-width: 600px; margin: 0 auto;">Pilih layanan yang paling sesuai dengan kebutuhan sepatu
                     Anda. Kami menangani setiap detail dengan hati-hati.</p>
             </div>
-            <div class="services-grid fade-in"
-                style="grid-template-columns: minmax(300px, 400px); justify-content: center;">
-                <div class="card" style="margin: 0 auto; width: 100%;">
+            <div class="services-grid fade-in">
+                <!-- Layanan 1 (Coming Soon) -->
+                <div class="card" style="position: relative;">
+                    <div class="badge" style="background: var(--body-text); color: white; position: absolute; top: 16px; right: 16px; left: auto; transform: none; font-size: 0.75rem;">Akan Datang</div>
+                    <div class="icon-wrapper" style="opacity: 0.7;"><i data-lucide="sparkles"></i></div>
+                    <h3 style="opacity: 0.7;">Deep Clean</h3>
+                    <p style="opacity: 0.7;">Pembersihan menyeluruh bagian luar dan dalam sepatu, mengatasi noda membandel hingga ke pori-pori bahan.</p>
+                </div>
+                
+                <!-- Layanan 2 (Active) -->
+                <div class="card">
                     <div class="icon-wrapper"><i data-lucide="zap"></i></div>
                     <h3>Reguler / Express Clean</h3>
                     <p>Pembersihan luar saja yang sangat cepat dan efisien. Khusus untuk sepatu sneakers berbahan kulit
                         dan canvas. Estimasi pengerjaan hanya 2 - 3 jam.</p>
+                </div>
+
+                <!-- Layanan 3 (Coming Soon) -->
+                <div class="card" style="position: relative;">
+                    <div class="badge" style="background: var(--body-text); color: white; position: absolute; top: 16px; right: 16px; left: auto; transform: none; font-size: 0.75rem;">Akan Datang</div>
+                    <div class="icon-wrapper" style="opacity: 0.7;"><i data-lucide="droplets"></i></div>
+                    <h3 style="opacity: 0.7;">Unyellowing</h3>
+                    <p style="opacity: 0.7;">Perawatan khusus untuk mengembalikan warna asli sol sepatu yang menguning (yellowing) agar kembali putih.</p>
                 </div>
             </div>
         </div>
@@ -1085,10 +1101,24 @@
                 <h2>Pilihan Paket Harga</h2>
                 <p>Harga jujur dan transparan. Dapatkan kualitas premium tanpa menguras dompet.</p>
             </div>
-            <div class="pricing-grid fade-in"
-                style="grid-template-columns: minmax(300px, 400px); justify-content: center;">
-                <!-- Paket Tunggal -->
-                <div class="card price-card featured" style="margin: 0 auto; width: 100%;">
+            <div class="pricing-grid fade-in">
+                <!-- Paket 1 (Coming Soon) -->
+                <div class="card price-card" style="opacity: 0.8;">
+                    <div class="badge" style="background: var(--body-text);">AKAN DATANG</div>
+                    <h3>Deep Clean</h3>
+                    <p>Pembersihan total luar dan dalam sepatu.</p>
+                    <div class="price-amount">Rp 35.000 <span>/ pasang</span></div>
+                    <ul class="price-features">
+                        <li><i data-lucide="check"></i> Pembersihan seluruh bagian</li>
+                        <li><i data-lucide="check"></i> Hilangkan noda membandel</li>
+                        <li><i data-lucide="check"></i> Cuci insole & tali sepatu</li>
+                        <li><i data-lucide="check"></i> Pengharum & anti jamur</li>
+                    </ul>
+                    <button class="btn btn-secondary" style="width: 100%; cursor: not-allowed; opacity: 0.6;" disabled>Belum Tersedia</button>
+                </div>
+
+                <!-- Paket 2 (Active) -->
+                <div class="card price-card featured">
                     <div class="badge">SATU HARGA</div>
                     <h3>Reguler / Express</h3>
                     <p>Pembersihan luar saja, cepat dan efisien.</p>
@@ -1101,6 +1131,21 @@
                     </ul>
                     <a href="https://wa.me/6281214787379?text=Halo%20ShoeWash,%20saya%20mau%20order%20Paket%20Reguler"
                         class="btn btn-primary" style="width: 100%;">Pilih Paket</a>
+                </div>
+
+                <!-- Paket 3 (Coming Soon) -->
+                <div class="card price-card" style="opacity: 0.8;">
+                    <div class="badge" style="background: var(--body-text);">AKAN DATANG</div>
+                    <h3>Unyellowing</h3>
+                    <p>Kembalikan warna putih sol sepatu.</p>
+                    <div class="price-amount">Rp 45.000 <span>/ pasang</span></div>
+                    <ul class="price-features">
+                        <li><i data-lucide="check"></i> Treatment sol menguning</li>
+                        <li><i data-lucide="check"></i> Termasuk cuci Deep Clean</li>
+                        <li><i data-lucide="check"></i> Coating pelindung sol</li>
+                        <li><i data-lucide="check"></i> Garansi hasil putih</li>
+                    </ul>
+                    <button class="btn btn-secondary" style="width: 100%; cursor: not-allowed; opacity: 0.6;" disabled>Belum Tersedia</button>
                 </div>
             </div>
         </div>
